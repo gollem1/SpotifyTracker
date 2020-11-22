@@ -20,7 +20,7 @@ namespace SpotifySongTracker.Writers
             try
             {
                 Image source = DrawText(songName);
-                source.Save(@"out\source.png", ImageFormat.Png);
+                source.Save(@"out\song.png", ImageFormat.Png);
             }
             catch
             {

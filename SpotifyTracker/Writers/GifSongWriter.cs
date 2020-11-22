@@ -15,7 +15,7 @@ namespace SpotifySongTracker.Writers
             using (var collection = new MagickImageCollection())
             {
                 Image source = DrawText(songName);
-                source.Save(@"out\source.png", ImageFormat.Png);
+                source.Save(@"out\song.png", ImageFormat.Png);
 
                 int maxWidth = Properties.Settings.Default.MaxSize;
 
@@ -78,7 +78,7 @@ namespace SpotifySongTracker.Writers
                     Colors = 256
                 });
 
-                collection.Write(@"out\ScrollingTrack.gif", MagickFormat.Gif);
+                collection.Write(@"out\song.gif", MagickFormat.Gif);
             }
         }
 
