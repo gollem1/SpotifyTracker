@@ -17,4 +17,4 @@ I made this for my wife, please consider following her [twitch](https://www.twit
 ### Notes
 
 - If you're concerned about performance/have a lower end computer then I would not recommend using the GIF output type, as it tends to use between 4-6% of CPU during output generation. PNG and TXT output is MUCH faster and uses hardly any CPU.
-- Tested on x86 architecture only, Magik.NET's any CPU library causes issues on my system, so I can't guarantee stability at the moment for non-x86 processors. Since pretty much everybody has x86 CPUs apart from RPIs and new Macs (neither of which are great for recording/streaming anyway), this is a low priority issue. Will take another look at this some time in the future.
+- Tested on x64 architecture only, Magik.NET's any CPU library causes issues on my system, so I can't guarantee stability at the moment for non-x64 processors. Since pretty much everybody has x64 CPUs apart from RPIs and new Macs (neither of which are great for recording/streaming anyway), this is a low priority issue. Will take another look at this some time in the future.
